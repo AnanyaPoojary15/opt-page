@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #ffffff; /* Fully white background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #000000;
+}
+
+.container {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.otp-box {
+  background: #ffffff;
+  padding: 40px 35px;
+  border-radius: 25px;
+  width: 350px;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  border: none;
+  background: none;
+  font-size: 22px;
+  color: #000;
+  cursor: pointer;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.otp-box h2 {
+  margin-bottom: 12px;
+  font-size: 22px;
+}
+
+.otp-box p {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 25px;
+}
+
+.otp-inputs {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.otp-inputs input {
+  width: 55px;
+  height: 60px;
+  text-align: center;
+  font-size: 24px;
+  background: #f9f9f9;
+  color: #000;
+  border: 1.5px solid #ccc;
+  border-radius: 12px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.otp-inputs input:focus {
+  border-color: black;
+}
+
+.verify-btn {
+  background-color: black;
+  color: #fff;
+  border: none;
+  padding: 14px;
+  width: 100%;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.verify-btn:hover {
+  background-color:rgb(44, 43, 43);
+}
+
+.resend {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #444;
+}
+
+.resend a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
